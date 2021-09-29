@@ -1,17 +1,45 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+  <ion-toolbar class="new-background-color">
+    <ion-title class="text">
+      About Me!
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+    <ion-toolbar class="new-background-color">
+      <ion-title size="large">Home</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center">
+          <ion-card class="background-color">
+            <ion-card-header>
+              <img src="assets/gc.jpg" alt="my-photo" height="30%" width="30%">
+              <ion-card-title class="card-title">Introduction</ion-card-title>
+            </ion-card-header>
+          
+            <ion-card-content>
+              Hi! I'm Shermayne OOI Francisco. I'm 20 years old. I was born on 30th of December, year 2000 at Mother and Child Hospital in Olongapo City.
+              If you're wondering about my name, it is actually my father's surname but it is written as my second name on my birth certificate and literally in capital letters.
+              My father's nationality is Malaysian but his ethnicity are Malay and Chinese while my mother is a Filipina with a little Spanish blood which she
+              got from the side of my grandfather. So basically, I am quarter Malay, quarter Chinese, and half Filipina.
+              I'm a 3rd year college student at Gordon College, taking up Bachelor of Science in Information Technology. 
+              I am an ambivert around people that I am not that close with but I am an extrovert when I am with my family.
+                <br><br>
+              I like pulling pranks on them and being ludicrous. I like listening to music ang sing along and watching movies. I love receiving compliments
+              and I like it when someone remember some little things about me because its rare. I don't like it when someone wakes me up on my sleep just for some
+              unnecessary things and when I don't reply to someone and they will get dramatic for constantly seeking my attention without thinking that I might be busy or dealing with something.
+              Also, when I am happy and someone will kill my vibe for bringing or talking about negativity, like I also have so much negativity in my life but
+              I'm trying to be positive here and be happy. Honestly, don't do that. Do not drag someone down with your negativity and just try to reflect their positivity.    
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

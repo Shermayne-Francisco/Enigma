@@ -1,0 +1,44 @@
+.new-background-color {
+    --background: #FAEBE0;
+}
+
+.text {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ion-icon {
+    font-size: 50px;
+}
+
+.background-color1 {
+    background-color: #4267B2;
+}
+
+.background-color2 {
+    background-image: linear-gradient(168deg, #405DE6 0%, #5851D8 5%, #833AB4 15%, #C13584 28%,
+     #E1306C 38%, #FD1D1D 48%, #F56040, #F77737, #FCAF45 78%, #FFDC80 98%);
+}
+
+.fb {
+    height: 55px;
+    width: 270px;
+    font-family:Arial, Helvetica, sans-serif;
+    --color: #4267B2;
+    --background: #f7f7f7;
+    --background-hover: #4267B2;
+    --background-hover-opacity: 15%;
+}
+
+.ig {
+    height: 55px;
+    width: 300px;
+    font-family:Arial, Helvetica, sans-serif;
+    --color: #f7f7f7;
+    --background: #30618A;
+    --background-hover: #FFDC80;
+    --background-hover-opacity: 15%;
+}
+

@@ -1,17 +1,53 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
+  <ion-toolbar class="new-background-color">
+    <ion-title class="text">
+      Follow Me!
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+    <ion-toolbar class="new-background-color">
+      <ion-title size="large">Social Media</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center">
+          <ion-card class="background-color1">
+            <ion-card-header>
+              <img src="assets/shen.jpg" alt="my-photo" class = "photo" height="50%" width="50%">
+              <ion-card-title class="card-title">
+                <ion-button class="fb" href="https://www.facebook.com/shermayne.ooi/">
+                  <ion-icon slot="start" name="logo-facebook"></ion-icon>
+                    Add me on Facebook
+                </ion-button>
+              </ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </div>
+      </ion-col>
+
+      <ion-col>
+        <div class="ion-text-center">
+          <ion-card class="background-color2">
+            <ion-card-header>
+              <img src="assets/me.jpg" alt="my-photo2" height="50%" width="50%">
+              <ion-card-title class="card-title">
+                <ion-button class="ig" href="https://www.instagram.com/shermayneooi/">
+                  <ion-icon slot="start" name="logo-instagram"></ion-icon>
+                    Follow me on Instagram
+                </ion-button>
+              </ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </div>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
